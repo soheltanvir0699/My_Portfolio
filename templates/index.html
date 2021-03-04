@@ -1,0 +1,659 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sohel Rana Personal Portfolio</title>
+<link href="{% static 'css/bootstrap.css' %}" rel='stylesheet' type='text/css' />
+    <link rel="shortcut icon" type="image/png" href="{% static 'icon.png' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{% static 'js/jquery.min.js' %}"></script>
+{#    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>#}
+{#<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>#}
+{#<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>#}
+<!-- Custom Theme files -->
+<link href="{% static 'css/style.css' %}" rel='stylesheet' type='text/css' />
+ <!-- Custom Theme files -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="keywords" content="Sohel Rana, Personal Portfolio, Preface Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<!-- webfonts -->
+	<link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<!-- webfonts -->
+ <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="{% static 'js/move-top.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/easing.js' %}"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+ <!---- start-smoth-scrolling---->
+</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div id="home" class="header">
+				<div class="container">
+				<!-- top-hedader -->
+				<div class="top-header">
+					<!-- /logo -->
+					<!--top-nav---->
+					<div class="top-nav">
+					<div class="navigation">
+					<div class="logo">
+						<h1><a href="{% url 'portfolio' %}"><span>S</span>ohel</a></h1>
+					</div>
+					<div class="navigation-right">
+						<span class="menu"><img src="{% static 'images/menu.png' %}" alt=" " /></span>
+						<nav class="link-effect-3" id="link-effect-3">
+							<ul class="nav1 nav nav-wil">
+								<li class="active"><a data-hover="Home" href="">Home</a></li>
+								<li><a class="scroll" data-hover="About" href="#about">About</a></li>
+								<li><a class="scroll" data-hover="Services" href="#services" >Services</a></li>
+								<li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+								<li><a class="scroll" data-hover="Portfolio" href="#port">Portfolio</a></li>
+								<li><a class="scroll" data-hover="Blog" href="#blogs">Blog</a></li>
+								<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+							<!-- script-for-menu -->
+								<script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+							<!-- /script-for-menu -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<!-- /top-hedader -->
+				</div>
+			<div class="banner-info">
+				<div class="col-md-7 header-right">
+					<h1>Hi !</h1>
+					<h6>IOS AND BACK-END DEVELOPER</h6>
+					<ul class="address">
+					
+					<li>
+							<ul class="address-text">
+								<li><b>NAME</b></li>
+								<li>I'M SOHEL</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>D.O.B</b></li>
+								<li>12-01-1997</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>PHONE </b></li>
+								<li>+880 1967 580 699</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>ADDRESS </b></li>
+								<li>Dumuria, Khulna, Bangladesh.</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>E-MAIL </b></li>
+								<li><a href="mailto:soheltanvir0699@gmail.com">soheltanvir0699@gmail.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>WEBSITE </b></li>
+								<li><a href="https://www.mk7lab.com/">www.mk7lab.com</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="col-md-5 header-left">
+					<img src="{% static 'images/img1.jpeg'%}" alt="">
+				</div>
+				<div class="clearfix"> </div>
+						
+		      </div>
+			</div>
+		</div>
+	</div>
+			<!-- about -->
+			<div id="about" class="about">
+				<div class="col-md-6 about-left">
+					<div id="owl-demo1" class="owl-carousel owl-carousel2">
+					                <div class="item">
+					                	<div class="about-left-grid">
+											<h2>Hi! I'm <span>Sohel Rana</span></h2>
+											<p>I'm a software engineer who seeks more effective and progressive ways to bring ideas to life. I am motivated by opportunities to make life more efficient and sustainable through software development. I have been able to combine my engineering mindset, desire to build, and enthusiasm into a career path that’s been immensely fulfilling.
+
+A self motivated individual capable of working in highly competitive environment and graduated in Computer Science from satkhira polytechnic Of Computer and Emerging Sciences</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+											</ul>
+										</div>
+					                </div>
+					                  <div class="item">
+					                	<div class="about-left-grid">
+											<h2>Hi! I'm <span>Sohel Rana</span></h2>
+											<p>Experience working in development teams globally using remote tools, as well as more traditional office based teams.
+
+Technical Skills
+
+•Skills in iOS Development : Creating static libraries and integrating it with other projects, iPhone SDK including SQLite database, Core Data, Property list, Web-servicing application used by JSON and XML Parsing, familiarity with common design patterns, In App Purchasing, Audio and Video, File Handling, Parse Cloud Integration, Sprite Kit
+•Programming Languages : C, python, swift, JAVA, HTML, Css, JavaScript, ReactJs.
+•Database Systems : Oracle 9i, MySQL, SQLite</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+											</ul>
+										</div>
+					                </div>
+					                  <div class="item">
+					                	<div class="about-left-grid">
+											<h2>Hi! I'm <span>Sohel Rana</span></h2>
+											<p>Software engineering professional offering 5+ years of experience leading key growth initiatives. Known as an expert in delivering creative, reliable, cost-effective solutions and engineering strategies throughout the product development lifecycle. A proven progressive career that reflects the experience that builds and leads highly motivated global teams, that utilize best practices and teamwork to execute projects in a fast-paced environment. Highly praised for work ethic, strategic decision making, problem-solving, and communication skills, and successful delivery of work. Fluent in bangla and English</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+											</ul>
+										</div>
+					                </div>
+					</div>
+				</div>
+				<div class="col-md-6 about-right">
+					
+				</div>
+				<div class="clearfix"> </div>
+							<link href="{% static 'css/owl.carousel.css' %}" rel="stylesheet">
+							    <script src="{% static 'js/owl.carousel.js' %}"></script>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo1").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+			<!-- Feedback -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+			</div>
+			<!-- /about -->
+			<!-- services -->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="service-head one text-center ">
+						<h4>WHAT I DO</h4>
+						<h3>MY <span>SERVICES</span></h3>
+						<span class="border two"></span>
+					</div>
+					<!-- services-grids -->
+					<div class="wthree_about_right_grids w3l-agile">
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-user"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Web Development</h4>
+						<p>Web development services imply designing, building, integrating, scaling and maintaining software that work via intranet or internet.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-user"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>IOS Development</h4>
+						<p>For over 5 years, Intellectsoft has been creating impactful apps for all Apple devices, helping the world’s leading brands go mobile. Leverage our rich expertise in iOS app development to build a beautiful, engaging, and consistent app for your industry, regardless of complexity.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-user"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Android Development</h4>
+						<p>Over more than a decade on the market, Intellectsoft has gained a reputation of one of the most reliable Android app development companies. Whether you a need an app for an Android smartphone, wearable, or TV, we can help you build a solid solution that works on every device regardless of brand and your industry of operation.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-user"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Web Design</h4>
+						<p>I'm the web design experts you're looking for. Book a free consultation today. affordable website design. Ecom web design. Custom web designers. Affordable web design.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
+					<!-- services-grids -->
+				</div>
+			</div>
+			<!-- services -->
+			<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<div class="service-head text-center">
+						<h4>WHAT I DID</h4>
+						<h3>MY <span>EXPERIENCE</span></h3>
+						<span class="border one"></span>
+					</div>
+					<div class="time-main w3l-agile">
+							<div class="col-md-6">
+							   <ul class="year">
+								   <li>2020</li>
+								   <li>2019</li>
+								   <li>2018</li>
+								   <li>2017</li>
+								   <li>2016</li>
+								   <div class="clearfix"></div>
+								</ul>
+							</div> 
+					                        <ul class="col-md-6 timeline">
+																<li>
+																  <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Mk7Lab</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Full-Stack Developer(IOS & Android & Django) at Mk7Lab</p>
+																	</div>
+																  </div>
+																</li>
+																
+																<li>
+																  <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Mk7Lab</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Senior IOS and Junior Android and Backend Developer at Mk7Lab</p>
+																	</div>
+																  </div>
+																</li>
+																
+																
+																
+																<li>
+																  <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Mk7Lab</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Senior IOS And Junior Android Developer at Mk7Lab</p>
+																	</div>
+																  </div>
+																</li>
+																
+																<li>
+																  <div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">Mk7Lab</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p> Junior IOS Developer at Mk7Lab </p>
+																	</div>
+																  </div>
+																</li>
+																<li>
+																  <div class="timeline-badge pass"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																	  <h4 class="timeline-title">self employed</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>This year i'm working on Upwork and Freelancer. </p>
+																	</div>
+																  </div>
+																</li>
+															</ul>
+								<div class="clearfix"></div>
+								</div>
+						</div>
+				</div>
+	<!--//work-experience-->
+
+		<!-- portfolio -->
+<div class="portfolio" id="port">
+				<div class="service-head text-center">
+						<h4>MY WORKS</h4>
+						<h3>MY <span>PORTFOLIO</span></h3>
+						<span class="border"></span>
+					</div>
+			<div class="portfolio-grids">
+				<script src="{% static 'js/easyResponsiveTabs.js' %}" type="text/javascript"></script>
+				<script type="text/javascript">
+									$(document).ready(function () {
+										$('#horizontalTab').easyResponsiveTabs({
+											type: 'default', //Types: default, vertical, accordion           
+											width: 'auto', //auto or any width like 600px
+											fit: true   // 100% fit in a container
+										});
+									});
+									
+				</script>
+				<div class="sap_tabs">
+					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						<ul class="resp-tabs-list">
+							<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>ALL</span></li> 
+							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>IOS Development</span></li>
+							<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Android Development</span></li>
+							<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Back-End Development</span></li>
+                            <li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span>Web Design</span></li>
+						</ul>				  	 
+						<div class="resp-tabs-container">
+
+                            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+                                {% for foo in all_Product %}
+								<div class="col-md-3 team-gd ">
+
+										<a href="#portfolioModal{{ foo.id }}" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="{{ foo.image.url }}" alt="">
+
+										</a>
+
+								</div>
+                                    {% endfor %}
+								<div class="clearfix"></div>
+							</div>
+
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+                            {% for foo in all_Product %}
+                                {% if foo.category == 'Ios' %}
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal{{ foo.id }}" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="{{ foo.image.url }}" alt="">
+
+										</a>
+									</div>
+								</div>
+                                    {% endif %}
+                            {% endfor %}
+								<div class="clearfix"></div>
+							</div>
+
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+                            {% for foo in all_Product %}
+                                {% if foo.category == 'Android' %}
+								<div class="col-md-3 team-gd ">
+
+										<a href="#portfolioModal{{ foo.id }}" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="{{ foo.image.url }}" alt="">
+
+										</a>
+
+								</div>
+                                    {% endif %}
+                            {% endfor %}
+								<div class="clearfix"></div>
+							</div>
+
+                                <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+                                 {% for foo in all_Product %}
+                                    {% if foo.category == 'Web Development' %}
+								<div class="col-md-3 team-gd ">
+
+										<a href="#portfolioModal{{ foo.id }}" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="{{ foo.image.url }}" alt="">
+
+										</a>
+
+								</div>
+                                        {% endif %}
+                                {% endfor %}
+								<div class="clearfix"></div>
+							</div>
+
+                            <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-4">
+                            {% for foo in all_Product %}
+                                {% if foo.category == 'Web Design' %}
+								<div class="col-md-3 team-gd ">
+
+										<a href="#portfolioModal{{ foo.id }}" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="{{ foo.image.url }}" alt="">
+
+										</a>
+
+								</div>
+                                    {% endif %}
+                            {% endfor %}
+								<div class="clearfix"></div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- //portfolio -->
+    <!-- top-grids -->
+				<div class="blog" id="blogs">
+					<div class="container">
+						<div class="service-head text-center">
+						<h4>BLOGS</h4>
+						<h3>MY <span>BLOGS</span></h3>
+						<span class="border one"></span>
+					</div>
+                        {% for bloo in blog %}
+					   <div class="news-grid w3l-agile">
+					    <div class="col-md-6 news-img">
+						  <a href="#" data-toggle="modal" data-target="#myModal{{ bloo.id }}"> <img src="{{ bloo.image.url }}" alt=" " class="img-responsive"></a>
+						 
+						</div>
+					    <div class="col-md-6 news-text">
+						   <h3> <a href="#" data-toggle="modal" data-target="#myModal{{ bloo.id }}">{{ bloo.title }}</a></h3>
+							<ul class="news">
+								<li><i class="glyphicon glyphicon-user"></i> <a href="#">{{ bloo.admin }}</a></li>
+								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">{{ bloo.comment }} Comments</a></li>
+								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">{{ bloo.like }} Likes</a></li>
+								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">{{ bloo.tag }} Tags</a></li>
+							</ul>
+							<p>{{ bloo.descriptions }}</p>
+							<a href="#" data-toggle="modal" data-target="#myModal{{ bloo.id }}" class="read hvr-shutter-in-horizontal">Read More</a>
+					
+						</div>
+		
+						<div class="clearfix"></div>
+					 </div>
+                        {% endfor %}
+					</div>
+				</div>
+				<!-- top-grids -->
+	<!-- /blog-pop-->
+        {% for bloo in blog %}
+			<div class="modal ab fade" id="myModal{{ bloo.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog about" role="document">
+					<div class="modal-content about">
+						<div class="modal-header">
+							<button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body about">
+								<div class="about">
+									
+									  <div class="about-inner">
+									   
+									      <img src="{{ bloo.image.url }}" alt="about"/>
+										     <h4 class="tittle">{{ bloo.title }}</h4>
+										   <p>{{ bloo.descriptions }}</p>
+										    <p>{{ bloo.descriptions_details }}</p>
+									  </div>
+												
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        {% endfor %}
+			<!-- //blog-pop-->
+
+			<!-- /header -->
+<div class="footer" id="contact">
+	<div class="container">
+	<div class="service-head one text-center">
+						<h4>CONTACT ME</h4>
+						<h3>GET <span>IN TOUCH WITH ME</span></h3>
+						<span class="border two"></span>
+					</div>
+		<div class="mail_us">
+			<div class="col-md-6 mail_left">
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<h4>Contact By Email</h4>
+						<ul>
+							<li>Mail1: <a href="mailto:soheltanvir0699@gmail.com">soheltanvir0699@gmail.com</a></li>
+						</ul>
+					</div>
+				</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							<h4>Contact By Phone</h4>
+							<ul>
+								<li>Phone: +880 1967 580 699</li>
+							</ul>
+						</div>
+					</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							<h4>Looking For Address</h4>
+							<ul>
+								<li>Address: Shovna, Dumuria</li>
+								<li>Khulna, Bangladesh.</li>
+							</ul>
+						</div>
+					</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-6 mail_right">
+				<form action="{% url 'send_email' %}" method="post">
+                    {% csrf_token %}
+					<input type="text" name="name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="email" name="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="text" name="number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
+					<textarea name="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+                    <input type="submit" value="Send">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="copy_right text-center">
+			<p>&copy; 2021 Preface . All rights reserved | Design by <a target="_blank">Sohel Rana.</a></p>
+            <a class="btn btn-primary" style="background-color: #3b5998" href="https://www.facebook.com/alfaz.mahamud.9/" role="button"
+  >Facebook</a>
+
+<!-- Twitter -->
+<a class="btn btn-primary" style="background-color: #55acee" href="https://twitter.com/soheltanvir0699" role="button"
+  >Twitter</a>
+
+<!-- Google -->
+<a class="btn btn-primary" style="background-color: #dd4b39" href="https://bd.linkedin.com/in/sohel-tanvir-185605193
+" role="button"
+  >Linkedin</a>
+
+<!-- Instagram -->
+<a class="btn btn-primary" style="background-color: #ac2bac" href="https://www.instagram.com/_sohel_tanvir_/" role="button"
+  >Instagram</a>
+		</div>
+
+	</div>
+</div>
+			<!-- //footer -->
+		<!-- /container -->
+        {% for foo in all_Product %}
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal{{ foo.id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>{{ foo.title }}</h3>
+                        <img src="{{ foo.image.url }}" class="img-responsive img-centered" alt="">
+                        <p>{{ foo.description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        {% endfor %}
+<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+<!-- //for bootstrap working -->
+	<script src="{% static 'js/bootstrap.js' %}"></script>
+	
+
+	</body>
+</html>
+
